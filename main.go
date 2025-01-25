@@ -44,7 +44,7 @@ func main() {
 		duration := randomDuration(1*time.Minute, 2*time.Hour)
 		fmt.Printf("Waiting for %v\n", duration)
 
-		//Yes we're going to sleep, don't wake it up!!!1
+		//Yes we're going to sleep, don't wake it up!!!1 What is a timer/ticker?????
 		time.Sleep(duration)
 
 		fmt.Println("Low battery alert!111")
